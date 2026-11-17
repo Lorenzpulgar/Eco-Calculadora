@@ -1,1 +1,30 @@
-<!-- Crear una página que emita los datos del usuario -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../static/css/style.css">
+    <title>Calculadora de eficiencia energética para hogares inteligentes</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__text">
+            <h1>Calcule la eficiencia energética de su hogar</h1>
+            <p>Tome la iniciativa y resuelva el problema del consumo excesivo de energía</p>
+        </div>
+    </header>
+    <h2>Gracias por enviar el formulario</h2>
+    <br>
+    <ul>
+        <li>Su nombre: {{ name }}</li>
+        <li>Su correo electrónico: {{ email }}</li>
+        <li>Su dirección: {{ address }}</li>
+        <li>Fecha de llegada de los especialistas: {{ date }}</li>
+    </ul>
+</body>
+
+</html>
